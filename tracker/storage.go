@@ -19,11 +19,11 @@ import (
 	"sync/atomic"
 
 	"github.com/hashicorp/go-memdb"
-	_ "github.com/mattn/go-sqlite3"
+	_ "modernc.org/sqlite"
 )
 
 const (
-	DB_DRIVER       = "sqlite3"
+	DB_DRIVER       = "sqlite"
 	DB_TABLE_NAME   = "events"
 	DB_COLUMN_ID    = "id"
 	DB_COLUMN_EVENT = "event"
