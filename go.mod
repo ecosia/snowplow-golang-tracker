@@ -1,4 +1,4 @@
-module github.com/snowplow/snowplow-golang-tracker/v2
+module github.com/ecosia/snowplow-golang-tracker/v2
 
 go 1.12
 
