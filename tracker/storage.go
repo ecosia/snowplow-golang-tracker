@@ -18,8 +18,8 @@ import (
 	"log"
 	"sync/atomic"
 
-	_ "github.com/glebarez/go-sqlite"
 	"github.com/hashicorp/go-memdb"
+	_ "modernc.org/sqlite"
 )
 
 const (
